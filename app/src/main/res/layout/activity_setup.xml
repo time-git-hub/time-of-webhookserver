@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F5F5F5">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="setting"
+        android:textColor="#78909C"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/feishuWebhookInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Webhook URL"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:background="@drawable/edit_text_background"
+        android:textColorHint="#78909C"
+        android:inputType="textUri" />
+
+    <EditText
+        android:id="@+id/usernameInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Username"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:background="@drawable/edit_text_background"
+        android:textColorHint="#78909C"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Password"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:background="@drawable/edit_text_background"
+        android:textColorHint="#78909C"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/portInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:hint="Port"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:background="@drawable/edit_text_background"
+        android:textColorHint="#78909C"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="SAVE"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_background"
+        android:elevation="4dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Release"
+        android:textColor="#78909C"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>
